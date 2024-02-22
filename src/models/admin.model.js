@@ -27,6 +27,10 @@ const adminSchema = new mongoose.Schema(
       type: Boolean,
       default: true,
     },
+    refreshToken: {
+      type: String,
+      required: true,
+    },
   },
   {
     timestamps: true,
